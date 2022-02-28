@@ -1,5 +1,4 @@
 import json
-import re
 import requests
 class ChartMetric :
     def __init__(self) :
@@ -57,4 +56,4 @@ class Musiio :
 # m = ChartMetric()
 # a = m.request('https://api.chartmetric.com/api/charts/airplay/artists?since=2020-09-09&duration=daily')
 # a = m.request('https://api.chartmetric.com/api/charts/amazon/tracks?date=2019-5-26&type=popular_track&genre=All+Genres')
-
+# a = m.request('https://api.chartmetric.com/api/artist/anr/by/social-index?limit=100&offset=1&sortBy=spotify_monthly_listeners&recentReleaseWithin=1080&latestReleaseWithin=540&maxSpotifyFollowers=20000')
